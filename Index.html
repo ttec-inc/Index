@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<a href="https://ttec-inc.github.io/index">application-form</a></a>
+<html>
+<head>
+    <img src= "TTEC Logo Steel.png" align=“center”>
+    <title>Job Application Form</title>
+    <meta charset="UTF.8">
+    <h1>TTEC INC</h1>
+    <h2>Job Application Form</h2>
+    <p>Please fill out this form with the required information</p>
+</head>
+<body>
+     
+     <form method="post" action="send-email.php">
+          <p></p>
+          <fieldset>
+              <p
+       <label>First Name: <input type="text" name="first-name" required /></label>
+      </p><label>Last Name: <input type="text" name="last-name" required /></label>
+      </p><label>Residential Address: <input type="address" name=residential-address required/></label>
+      </p><label>Position Interested In: <input  type="text" name=position-interested-in required /></label>
+      </p><label>Status(PT/FT): <input type="text" name=status(pt/ft) required /></label>
+      <p><label>Email:  <input type="email" name="email" required /></label>
+       </p><label>Phone Number: <input type="number" name="number" max="10" required /></label </fieldset>
+       
+       <p></p>
+     <fieldset>
+       <label>Upload a profile picture: 
+      <p><input type="file" name="file" /></label>
+       <p></p><label>Input your age (Years): <input type="number" name="age" min="15" max="80" />
+			  </label>
+       <p></p><label>How did you hear about us?
+         <select name="referrer">
+           <option value="">(select one)</option>
+           <option value="1">Facebook Referral</option>
+           <option value="2">YouTube Channel</option>
+           <option value="3">Our Website</option>
+           <option value="4">Other</option>
+         </select>
+       </label>
+       <p></p><label>Provide a bio:
+         <textarea name="bio" rows="2" cols="30" placeholder="I like working..."></textarea>
+			  </label>
+     </fieldset>
+     
+     <br>
+     
+     <p><input type="submit" value="SUBMIT" style="background-color: #ffffff">
+     
+       </form>
+</body>
+<html>
